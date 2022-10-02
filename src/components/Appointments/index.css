@@ -1,0 +1,70 @@
+.bg-container {
+  background-color: #9796f0;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+}
+.app-container {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  overflow: auto;
+  background-color: #ffffff;
+  height: 80%;
+  width: 100%;
+  border-radius: 10px;
+}
+.add-container {
+  display: flex;
+  flex-direction: row;
+}
+.text-container {
+  align-self: center;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.image-container {
+  align-self: flex-end;
+  margin-left: 200px;
+  margin-top: 150px;
+}
+.line {
+  width: 100%;
+  color: black;
+}
+.add-button {
+  outline: none;
+  background-color: #8b5cf6;
+  height: 30px;
+  width: 80px;
+  color: #ffffff;
+  border: 0;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.list-heading {
+  padding-left: 20px;
+}
+.filter-style {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 25px;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+.filter-filled {
+  color: #ffffff;
+  background-color: #9897f0;
+}
+.filter-empty {
+  color: #9897f0;
+  background-color: #ffffff;
+  border: 1px solid #9897f0;
+}
+.input {
+  cursor: pointer;
+}
